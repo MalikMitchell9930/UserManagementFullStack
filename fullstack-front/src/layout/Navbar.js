@@ -4,11 +4,11 @@ import { Link } from 'react-router-dom'
 export default function Navbar() {
     return (
         <div>
-            <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
+            <nav className="navbar navbar-expand-lg navbar-dark bg-success">
                 <div className="container-fluid">
-                    <a className="navbar-brand" href="#">
-                        Employee Management
-                    </a>
+                    <Link className="navbar-brand" to="/">
+                        User Management
+                    </Link>
                     <button
                         className="navbar-toggler"
                         type="button"
@@ -21,7 +21,7 @@ export default function Navbar() {
                         <span className="navbar-toggler-icon"></span>
                     </button>
 
-                    <Link className="btn btn-outline-dark" to="/addUser">
+                    <Link className="btn btn-outline-dark bg-secondary" to="/addUser">
                         Add User
                     </Link>
                 </div>
