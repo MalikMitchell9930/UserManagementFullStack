@@ -25,20 +25,20 @@ loadUser();
         <div className="row">
             <div className="col-md-6 offset-md-3 border rounded p-4 mt-2 shadow">
                 <h2 className="text-center m-4">View User Details</h2>
-                <div classname="card">
+                <div className="card">
                 <div className="card-header">
-                User Details : {user.id}
+                User Id : {user.id}
                 <ul className="list-group list-group-flush">
-                <li className="list-group-item">
-                <b>Name:</b>
+                <li className="list-group-item ">
+                <b>Name: </b>
                 {user.name}
                 </li>
                 <li className="list-group-item">
-                <b>Username:</b>
+                <b>Username: </b>
                 {user.username}
                 </li>
                  <li className="list-group-item">
-                 <b>Email:</b>
+                 <b>Email: </b>
                  {user.email}
                  </li>
 

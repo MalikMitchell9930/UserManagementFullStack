@@ -13,8 +13,8 @@ function App() {
       <Router>
         <Navbar />
 
-        <Routes className="WebRoutes bg-success">
-          <Route className="WebRoutes bg-success" exact path="/" element={<Home />} />
+        <Routes>
+          <Route exact path="/" element={<Home />} />
           <Route exact path="/addUser" element={<AddUser />} />
           <Route exact path="/editUser/:id" element={<EditUser />}/>
           <Route exact path="/viewUser/:id" element={<ViewUser/>}/>
